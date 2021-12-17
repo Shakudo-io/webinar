@@ -1,0 +1,7 @@
+pipeline:
+  name: "rapids pipeline"
+  tasks:
+  - name: "rapids taxi"
+    type: "jupyter notebook"
+    notebook_path: "rapids_demo/rapids_pipeline/haversine_distance_nyctaxi.ipynb"
+    notebook_output_path: "haversine_distance_nyctaxi_output.ipynb"

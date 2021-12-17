@@ -1,4 +1,9 @@
-![](rapids.png)
+![](rapids_shakudo.png)
+
+# Accelerate GIS data processing by up to 10000x with RAPIDS on Hyperplane
+### NVIDIA & [Shakudo](https://bit.ly/3FdAeRu) joint webinar held on Dec. 16. 2021
+This repository contains example notebooks from the demo portion of the webinar.
+Some of the packages used is specific to the Hyperplane platform and may not be replicable on other environements. 
 
 # Using Rapids 
 
@@ -12,6 +17,6 @@ The [movies](movies.ipynb) notebook compares the cuDF API to the Pandas API. In 
 
 The [babynames](babynames.ipynb) notebook compares performance between a single GPU and a single CPU. All tests showed double digit performance improvements when run on a Tesla P4. Results will vary depending on the system environment. Click here to [download](https://www.ssa.gov/oact/babynames/state/namesbystate.zip) the data.
 
-### 3. MultiGPU RAPIDS on [Hyperlane](https://shakudo.io)
+### 3. MultiGPU RAPIDS on [Hyperlane](https://bit.ly/3GWTymp)
 
 The [haversine_distance](haversine_distance.ipynb) notebook performance multi-GPU haversine distance calculation with RAPIDS CuSpatial package on distributed dask cluster using Hyperplane. Test shows 1-liner scale up of distributed GPU dask cluster and 3x speed up with 2 remote GPUs compared to 1 local GPU. Click here to [download](https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2009-01.csv) the data.

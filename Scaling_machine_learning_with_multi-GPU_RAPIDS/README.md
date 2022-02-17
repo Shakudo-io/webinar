@@ -18,4 +18,4 @@ The [multi-CPU example](multiCPU.ipynb) notebook scales Kmeans from single CPU n
 
 ### 3. MultiGPU RAPIDS on [Hyperlane](https://bit.ly/3GWTymp)
 
-The [multi-GPU example](multiCPU.ipynb) notebook scales Kmeans from single GPU node to distributed GPU nodes with Dask and Hyperplane APIs and acheved ~50x speed up compated to multi-CPU and 2x speed up compared to single GPU RAPIDS.
+The [multi-GPU example](multiGPU.ipynb) notebook scales Kmeans from single GPU node to distributed GPU nodes with Dask and Hyperplane APIs and acheved ~50x speed up compated to multi-CPU and 2x speed up compared to single GPU RAPIDS.

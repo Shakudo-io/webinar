@@ -10,7 +10,7 @@ Some of the packages used is specific to the Hyperplane platform and may not be 
 These notebooks compare [RAPIDS](https://rapids.ai) on GPU's to conventional Python tools on CPU's and multi-node-multi-GPU [RAPIDS](https://rapids.ai) compared to single-GPU RAPIDS.
 
 ### 1. # Scale Out Demo: K-means (CPU-to-GPU-to-MNMG)
-[This notebook]('scaling out k-means.ipynb') introduces scaling out with RAPIDS and Dask. It introduces how Dask works "under the hood" and shows how to modify Python code to leverage RAPIDS and Dask.
+[This notebook](scaling_out_k-means.ipynb) introduces scaling out with RAPIDS and Dask. It introduces how Dask works "under the hood" and shows how to modify Python code to leverage RAPIDS and Dask.
 
 ### 2. GPU compared to CPU
 
